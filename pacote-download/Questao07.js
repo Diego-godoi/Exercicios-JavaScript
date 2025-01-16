@@ -23,7 +23,7 @@ let menorNota = notas[0];
 let maiorNota = notas[0];
 for(let i = 0; i<notas.length; i++){
     if(notas[i]<menorNota){
-        menorNota = notas[1];
+        menorNota = notas[i];
     }
     if(notas[i]>maiorNota){
         maiorNota = notas[i];
